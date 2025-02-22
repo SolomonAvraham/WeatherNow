@@ -11,10 +11,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "extra": {
-      "API_URL": "process.env.BASE_URL",
-      "API_KEY": " process.env.API_KEY"
-    },
+    "platforms": ["ios", "android", "web"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
@@ -34,6 +31,12 @@
     "plugins": ["expo-router", "expo-splash-screen"],
     "experiments": {
       "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/54d55d9a-ecf9-4a46-ac26-13d25439bf0f"
     }
   }
 }
