@@ -9,8 +9,9 @@ A **React Native Expo** app that provides real-time weather updates using OpenWe
 👉 Dark mode support
 
 ## 📸 Screenshots
-
-&#x20;
+<p align="center">
+  <img src="assets/images/Screenshot.png" width="200">
+</p>&#x20;
 
 ## 📲 Demo
 
