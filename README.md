@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# 🌦️ WeatherNow App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A **React Native Expo** app that provides real-time weather updates using OpenWeather API.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+👉 Check current weather based on location\
+👉 Search for weather in any city\
+👉 Dark mode support
 
-   ```bash
-   npm install
-   ```
+## 📸 Screenshots
 
-2. Start the app
+&#x20;
 
-   ```bash
-    npx expo start
-   ```
+## 📲 Demo
 
-In the output, you'll find options to open the app in a
+- **Expo Preview Link**: [Click here](https://expo.dev/@yourusername/weatherNow)
+- **Web Version** (if deployed): [weatherNow.vercel.app](https://weathernow.vercel.app)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Clone the repo and install dependencies:
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```sh
+git clone https://github.com/yourusername/weatherNow-app.git
+cd weatherNow-app
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Start the Expo app:
 
-## Learn more
+```sh
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🚀 Deployment
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+To deploy on Expo:
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```sh
+eas update --branch production --message "Showcase release"
+```
